@@ -1,2 +1,0 @@
-# PracticeWeb
- Practice
