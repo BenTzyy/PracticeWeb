@@ -1,14 +1,17 @@
 // App.js
-import React, { useState, useEffect } from "react";
-// import MainPage from "./MainPage";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MainPage from "./MainPage";
 import PlayPage from "./PlayPage";
-import Navigation from "./Navigation";
 
 function App() {
   return (
-    <div>
-      <Navigation />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/play" element={<PlayPage />} />
+      </Routes>
+    </Router>
   );
 }
 
