@@ -1,6 +1,6 @@
 {
-  "short_name": "Wala lang",
-  "name": "wala lang",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
