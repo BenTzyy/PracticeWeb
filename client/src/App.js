@@ -1,6 +1,6 @@
 // App.js
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import MainPage from "./MainPage";
 import PlayPage from "./PlayPage";
 
