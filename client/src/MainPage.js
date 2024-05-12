@@ -9,7 +9,7 @@ function MainPage() {
   const navigate = useNavigate();
   const [noButtonPosition, setNoButtonPosition] = useState({ x: 0, y: 0 });
   const [noButtonClicks, setNoButtonClicks] = useState(0);
-  const [mainText, setMainText] = useState("lalaro kaba?");
+  const [mainText, setMainText] = useState("pao pao law.ay");
   const [yesButtonSize, setYesButtonSize] = useState(16);
 
   const handleYesClick = () => {
@@ -40,49 +40,49 @@ function MainPage() {
   React.useEffect(() => {
     switch (noButtonClicks) {
       case 1:
-        setMainText("ehhh bading ka?");
+        setMainText("pao pao law.ay");
         break;
       case 2:
-        setMainText("pag pinindot mo yung no bading ka talaga");
+        setMainText("pao pao law.ay");
         break;
       case 3:
-        setMainText("yan bading talga amputa");
+        setMainText("ypao pao law.ay");
         break;
       case 4:
-        setMainText("takot ka ata e");
+        setMainText("pao pao law.ay");
         break;
       case 5:
-        setMainText("tang ina bkt hindi");
+        setMainText("pao pao law.ay");
         break;
       case 6:
-        setMainText("dalian mo na jusko");
+        setMainText("pao pao law.ay");
         break;
       case 7:
-        setMainText("takot kaba sa jowa mo");
+        setMainText("pao pao law.ay");
         break;
       case 8:
-        setMainText("talaga bkt ayaw mo mag laro?");
+        setMainText("pao pao law.ay");
         break;
       case 9:
-        setMainText("tra ayain mo na din si joemar");
+        setMainText("tpao pao law.ay");
         break;
       case 10:
-        setMainText("pa bebe pa amp");
+        setMainText("pao pao law.ay");
         break;
       case 11:
-        setMainText("last na to");
+        setMainText("pao pao law.ay");
         break;
       case 12:
-        setMainText("promise last na");
+        setMainText("pao pao law.ay");
         break;
       case 13:
-        setMainText("eto last na talga");
+        setMainText("pao pao law.ay");
         break;
       case 14:
-        setMainText("joke");
+        setMainText("pao pao law.ay");
         break;
       default:
-        setMainText("lalaro kaba?");
+        setMainText("pao pao law.ay");
     }
   }, [noButtonClicks]);
 

@@ -24,7 +24,7 @@ function PlayPage() {
         alt="GIF"
         style={{ width: "200px", marginBottom: "20px" }}
       />
-      <h1 style={{ color: "white" }}>tra tang ina mo online na</h1>
+      <h1 style={{ color: "white" }}>hindi lay.ay gid ya si pao pao</h1>
     </div>
   );
 }
